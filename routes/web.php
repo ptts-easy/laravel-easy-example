@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::view('/', 'my.home', ['title' => 'Laravel']);
+Route::view('/', 'my.home', ['title' => 'Laravel Easy Example']);
 
 Route::get('/view', function () {return view('my.view', ['title' => 'Laravel']);});
 
