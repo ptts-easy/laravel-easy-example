@@ -21,7 +21,7 @@
           target="_blank"
           rel="noopener noreferrer"
         >
-          Documentation
+          Learn Laravel
         </a>
         @include('my.header')
         @include('my.nav')        

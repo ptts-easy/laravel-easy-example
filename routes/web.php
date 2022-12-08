@@ -13,7 +13,15 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::view('/', 'my.home', ['title' => 'Laravel Easy Example']);
+Route::get('/', function() {
+    return View::make('index.html');
+});
+
+Route::get('hello', function() {
+    return View::make('index.html');
+});
+
+Route::view('/aaa', 'my.home', ['title' => 'Laravel Easy Example']);
 
 Route::get('/view', function () {return view('my.view', ['title' => 'Laravel']);});
 
